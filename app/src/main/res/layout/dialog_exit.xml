@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottomsheet"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_16sdp"
+        android:paddingVertical="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/bottom_sheet_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="Exit App"
+
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:id="@+id/Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanit_semibold"
+            android:text="Are You Sure want to exit this app ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewAdsMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_3sdp">
+
+            <FrameLayout
+                android:id="@+id/frameViewAdsMain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_210sdp"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnExit"
+            style="@style/styleButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Tap To Exit"
+            android:textAllCaps="false"
+            android:backgroundTint="#E1E0E0"
+            android:textColor="@color/star_gray"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+</FrameLayout>

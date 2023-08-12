@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/includedToolbar"
+        layout="@layout/include_tool" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/includedToolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewAdsMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_3sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_3sdp">
+
+                <FrameLayout
+                    android:id="@+id/frameViewAdsMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <EditText
+                android:id="@+id/editMsg"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_edittext_rect"
+                android:fontFamily="@font/kanit_regular"
+                android:hint="Type the text to repeat"
+                android:inputType="text"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/star_gray"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <EditText
+                android:id="@+id/editRepeat"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_edittext_rect"
+                android:fontFamily="@font/kanit_regular"
+                android:hint="Repeat Times"
+                android:inputType="number"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/star_gray"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Need New Line"
+                    style="@style/textStyleNormal"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.zcw.togglebutton.ToggleButton
+                    android:id="@+id/toggle"
+                    android:layout_width="54dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    app:tbBorderWidth="2dp"
+                    app:tbOffBorderColor="#ddd"
+                    app:tbOffColor="#ddd"
+                    app:tbOnColor="@color/colorMain"
+                    app:tbSpotColor="#fff" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtRepeat"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Repeat"
+                style="@style/textStyleNormal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp"
+                app:strokeWidth="2dp">
+
+                <TextView
+                    android:id="@+id/txtMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:gravity="center"
+                    style="@style/textStyleNormal"
+                    android:maxWidth="@dimen/_200sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_20sdp">
+
+                <LinearLayout
+                    android:id="@+id/btnChat"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:src="@drawable/txtshare"
+                        android:padding="@dimen/_12sdp"
+                        android:background="@drawable/button_bg_shape"/>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnDelete"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:src="@drawable/ic_txtdelete" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

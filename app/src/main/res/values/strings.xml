@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">GB Plus Version 2023</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_button_content_description">Add sticker pack to WhatsApp</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">Sticker Details</string>
+    <string name="title_activity_sticker_pack_details_single_pack">Sticker Pack</string>
+    <string name="title_activity_sticker_pack_info">Info</string>
+    <string name="title_activity_sticker_packs_list">My WhatsApp Sticker App</string>
+    <string name="info_send_email_to_prompt">Send Mail</string>
+    <string name="add_to_whatsapp">Add To Whatsapp</string>
+    <string name="details_pack_already_added">Pack Already Added</string>
+    <string name="folder_output">GBLatestVersion</string>
+    <string name="auto_reply_text">Auto Reply Text</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_night">Good Night</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="how_are_you">How Are You?</string>
+    <string name="where_are_you">Where Are You</string>
+    <string name="happy_birthday">Hey,Happy Birthday</string>
+    <string name="hows_your_day">How\'s your Day?</string>
+    <string name="nothing_to_copy">Nothing to Copy</string>
+    <string name="message_copied">Message Copied</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="ws_not_installed">Whatsapp Not Installed.</string>
+    <string name="mirror">Mirror</string>
+    <string name="button_count">button_count</string>
+    <string name="text_here">Enter Your Text Here</string>
+    <string name="copied_text">Copied Text</string>
+    <string name="share_title">Share using</string>
+    <string name="no_text_to_share">No text found to share</string>
+    <string name="text_copied">Text copied to clipboard</string>
+    <string name="no_text_to_copy">No text found to copy</string>
+    <string name="reverse">Reverse</string>
+    <string name="preview">Preview</string>
+
+    <string name="mirror_reverse_both">Both</string>
+    <string name="enter_name">Enter The Name</string>
+    <string name="share_via">share via</string>
+    <string name="_5_digit">12345</string>
+    <string name="enter_number">Enter the Number</string>
+    <string name="convert_before_copy">Please Speech Some Words</string>
+    <string name="convert_text_to_share">Please Speech Some Words</string>
+    <string name="speech_not_supported">Not Supported</string>
+    <string name="speech_prompt">Need to speak</string>
+</resources>

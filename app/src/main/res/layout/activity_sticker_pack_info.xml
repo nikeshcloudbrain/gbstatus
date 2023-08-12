@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tray_icon"
+            style="@style/InfoButtonStyle"
+            android:clickable="false"
+            android:text="Tray icon"
+            android:textColor="#b9b9b9" />
+
+        <TextView
+            android:id="@+id/view_webpage"
+            style="@style/InfoButtonStyle"
+            android:text="View webpage"
+            android:textColor="#b9b9b9" />
+
+        <TextView
+            android:id="@+id/send_email"
+            style="@style/InfoButtonStyle"
+            android:text="Send email"
+            android:textColor="#b9b9b9" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

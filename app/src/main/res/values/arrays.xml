@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="number_style">
+        <item>⓪ ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈</item>
+        <item>⓿ ➊ ➋ ➌ ➍ ➎ ➏ ➐ ➑ ➒</item>
+        <item>⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨</item>
+        <item>0 1 2 3 4 5 6 7 8 9</item>
+        <item>０ １ ２ ３ ４ ５ ６ ７ ８ ９</item>
+        <item>⒪ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼</item>
+        <item>⒪ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼</item>
+        <item>₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉</item>
+        <item>0⃣ 1⃣ 2⃣ 3⃣ 4⃣ 5⃣ 6⃣ 7⃣ 8⃣ 9⃣</item>
+        <item>⓪ ⓵ ⓶ ⓷ ⓸ ⓹ ⓺ ⓻ ⓼ ⓽</item>
+    </array>
+    <array name="name_style">
+ <!--       <item>•❤•.¸✿¸.•❤•</item>
+        <item>෴❤️෴ ෴❤️෴</item>
+        <item>Ƹ̵̡Ӝ̵̨̄Ʒ ♥●•٠·˙</item>
+        <item>.•❤•.❀•.</item>-->
+        <item>˜”*°•.˜”*°•</item>
+        <item>꧁</item>
+        <item>♫♪.ılılıll</item>
+        <item>┏━━━━•❅•━━</item>
+        <item>┎┈┈୨♡୧┈</item>
+        <item>╔═.✵.═</item>
+        <item>┌─❀*̥˚─</item>
+        <item>▁ ▂ ▄ ▅ ▆ ▇ █</item>
+        <item>▌│█║▌║▌║</item>
+        <item>░▒▓█</item>
+        <item>░▒▓█►─═</item>
+        <item>▀▄▀▄▀▄</item>
+        <item>•❅•°•</item>
+        <item>｡☆✼★━━━</item>
+        <item>╰══• ೋ•✧</item>
+        <item>¸,ø¤º°`°º¤ø,¸¸,ø¤º°</item>
+        <item>★·.·´¯`·.·★</item>
+        <item>ıllıllı</item>
+        <item>•?((¯°·._.•</item>
+        <item>°°°·.°·..·°¯°·._.·</item>
+        <item>×º°”˜`”°º×</item>
+        <item>.•°¤*(¯`★´¯)*¤°</item>
+        <item>•]••´º´•»</item>
+        <item>(¯´•._.•</item>
+        <item>*•.¸♡</item>
+        <item>¸„.-•~¹°”ˆ˜¨</item>
+        <item>╰☆☆</item>
+        <item>★彡</item>
+        <item>•´¯`•.</item>
+        <item>•°¯`••</item>
+        <item>(¯`*•.¸,¤°´✿.｡.:*</item>
+        <item>•._.••´¯``•.¸¸.•`</item>
+        <item>¸„.-•~¹°”ˆ˜¨</item>
+        <item>(¯´•._.•</item>
+        <item>••¤(`×[¤</item>
+        <item>,.-~*¨¯¨*·~-.¸-(_</item>
+        <item>•´¯`•»</item>
+        <item>o0×X×0o.</item>
+        <item>¤¸¸.•´¯`•¸¸.•..&gt;&gt;</item>
+        <item>—(••÷[</item>
+        <item>¸,ø¤º°`°º¤ø,¸</item>
+        <item>`•.¸¸.•´´¯`••._.•</item>
+        <item>`•.,¸¸,.•´¯</item>
+        <item>↤↤↤↤↤</item>
+        <item>➶➶➶➶➶</item>
+        <item>↫↫↫↫↫</item>
+        <item>·.¸¸.·♩♪♫</item>
+        <item>【｡_｡】</item>
+        <item>]|I{•------»</item>
+        <item>(-_-)</item>
+        <item>.•°¤*(¯`★´¯)*¤°</item>
+        <item>๑۞๑,¸¸,ø¤º°`°๑۩</item>
+        <item>•´¯`•.</item>
+        <item>••.•´¯`•.••</item>
+        <item>¤¸¸.•´¯`•¸¸.•..&gt;&gt;</item>
+        <item>◦•●◉✿</item>
+        <item>╚»★«╝</item>
+        <item>ஜ۩۞۩ஜ</item>
+        <item>¸¸♬·¯·♩¸¸♪·¯·♫¸¸</item>
+        <item>∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ</item>
+        <item>-·=»‡«=·-</item>
+        <item>¤ (¯´☆✭.¸_)¤</item>
+        <item>(¯`·.¸¸.·´¯`·.¸¸.-&gt;</item>
+        <item>✿.｡.:* ☆:**:.</item>
+        <item>.•♫•♬•</item>
+        <item>ღ(¯`◕‿◕´¯) ♫ ♪ ♫</item>
+        <item>«-(¯`v´¯)-«</item>
+    </array>
+
+</resources>

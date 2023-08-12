@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/llToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:background="@drawable/bg_toolbar"
+        android:orientation="vertical"
+        app:cardElevation="@dimen/_1sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+      <include layout="@layout/include_tool"
+          android:id="@+id/includedToolbar"
+          />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/round_tab"
+            android:gravity="center">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabRS"
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@android:color/transparent"
+                app:tabBackground="@drawable/bg_tab_background"
+                app:tabGravity="fill"
+                app:tabIndicatorFullWidth="false"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabRippleColor="@null"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextAppearance="@style/tabText"
+                app:tabTextColor="#4d000000"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_minus2sdp"
+        android:layout_below="@id/llToolbar"
+        android:orientation="vertical"
+        >
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vpRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

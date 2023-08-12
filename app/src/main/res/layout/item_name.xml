@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llItemNameId"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="6dp"
+    android:background="@drawable/bg_edittext_rect"
+    android:gravity="center"
+    android:minHeight="100dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtItemNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:singleLine="true"
+        android:text="Name"
+        android:fontFamily="@font/kanit_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp" />
+
+</LinearLayout>
